@@ -1,0 +1,19 @@
+<template id="hello-world-template">
+    <style>
+        @keyframes fade_out {
+            from {opacity: 1.0;}
+            to {opacity: 0.5;}
+        }
+
+        h1 {
+            text-align: center;
+            animation-name: fade_out;
+            animation-duration: 0.5s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            text-shadow: lightgray;
+        }
+    </style>
+    <h1>Hello, <slot>World</slot>!</h1>
+</template>

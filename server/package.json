@@ -1,0 +1,16 @@
+{
+  "name": "web-component-demo-server",
+  "version": "1.0.0",
+  "description": "A demo server for pure web components.",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Dan Berlin <daniel.l.berlin@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
