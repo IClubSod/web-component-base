@@ -1,7 +1,7 @@
-# Pure Web Component Demo
+# Pure Web Component Base
 
 ## Purpose
-To demonstrate a simple, *purely* vanilla, standards-based design for building reusable web components.
+To provide a simple, *purely* vanilla, standards-based design for building reusable web components.
 
 ## Features
 - No framework or bulky library.
